@@ -2,6 +2,9 @@
 requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
+[tool.black]
+line-length = 100
+
 [tool.flit.metadata]
 author = "Ciencia de Datos • GECI"
 author-email = "ciencia.datos@islas.org.mx"
