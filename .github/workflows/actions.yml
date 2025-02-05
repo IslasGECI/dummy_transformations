@@ -1,4 +1,4 @@
-name: Push latest
+name: Push to PyPi
 on:
   push:
     branches:
