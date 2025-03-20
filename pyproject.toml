@@ -12,3 +12,7 @@ module = "dummy_transformations"
 requires = [
 ]
 requires-python=">=3.9"
+
+[tool.mutmut]
+paths_to_mutate = [ "dummy_transformations/" ]
+tests_dir = [ "tests/" ]
